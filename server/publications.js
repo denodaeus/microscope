@@ -1,4 +1,4 @@
-Meteor.publish('posts', function() {
+Meteor.publish('posts', function(options) {
   check(options, {
     sort: Object,
     limit: Number
